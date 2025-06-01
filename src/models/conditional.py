@@ -148,7 +148,6 @@ class LinearAlpha(Alpha):
         Returns:
             - alpha_t (num_samples, 1)
         """ 
-        # raise NotImplementedError("Fill me in for Question 2.1!")
         return t
         
     def dt(self, t: torch.Tensor) -> torch.Tensor:
@@ -223,7 +222,6 @@ class GaussianConditionalProbabilityPath(ConditionalProbabilityPath):
         Returns:
             - conditional_vector_field: conditional vector field (num_samples, dim)
         """ 
-        # raise NotImplementedError("Fill me in for Question 2.3!")
         alpha_t = self.alpha(t) # (num_samples, 1)
         beta_t = self.beta(t) # (num_samples, 1)
         dt_alpha_t = self.alpha.dt(t) # (num_samples, 1)
