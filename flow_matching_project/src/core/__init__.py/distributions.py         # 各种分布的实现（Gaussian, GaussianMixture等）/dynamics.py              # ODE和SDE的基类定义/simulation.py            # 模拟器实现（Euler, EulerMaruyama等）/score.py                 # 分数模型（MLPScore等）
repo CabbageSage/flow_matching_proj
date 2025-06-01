@@ -1,0 +1,19 @@
+my_project/
+│
+├── data/                # 存放数据集
+│   ├── raw/             # 原始数据
+│   ├── processed/       # 处理后的数据
+│
+├── notebooks/           # Jupyter Notebook 文件
+│   └── analysis.ipynb   # 原始的 .ipynb 文件
+│
+├── src/                # 源代码
+│   ├── __init__.py     # 使 src 成为一个包
+│   ├── data_processing.py  # 数据处理模块
+│   ├── model.py        # 模型相关模块
+│   ├── visualization.py # 可视化模块
+│   └── utils.py        # 工具函数
+│
+├── requirements.txt     # 项目依赖
+├── README.md            # 项目说明
+└── main.py              # 主程序入口

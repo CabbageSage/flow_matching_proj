@@ -1,0 +1,19 @@
+my_project/
+│
+├── data/                # 数据文件夹
+│   ├── raw/             # 原始数据
+│   ├── processed/       # 处理后的数据
+│
+├── notebooks/           # Jupyter Notebook 文件夹
+│   └── analysis.ipynb   # 原始的 .ipynb 文件
+│
+├── src/                # 源代码文件夹
+│   ├── __init__.py      # 使 src 成为一个包
+│   ├── data_preprocessing.py  # 数据预处理模块
+│   ├── feature_engineering.py # 特征工程模块
+│   ├── model.py         # 模型定义和训练模块
+│   └── evaluation.py     # 模型评估模块
+│
+├── requirements.txt     # 项目依赖
+├── README.md            # 项目说明文档
+└── main.py              # 主程序入口
